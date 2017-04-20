@@ -1,7 +1,8 @@
 public class Javamain4{
  public static void main(String[] args){
 
-    static
+    static int a;
+    static char c;
     static double d;
     static float f = 1.0f;
     static long l = 1l;
@@ -13,6 +14,9 @@ public class Javamain4{
     System.out.println(d);
     System.out.println(f);
     System.out.println(l);
+
+    double local = 10.0d;
+
 
 
  }
